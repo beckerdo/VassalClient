@@ -10,6 +10,9 @@ import java.net.http.HttpResponse;
 import java.net.http.HttpResponse.BodyHandlers;
 import java.time.Duration;
 
+/**
+ * Basic Java client to talk to HTTP service.
+ */
 public class VassalClient {
     public static final String URL = "https://vassalengine.org";
     public static final String API = "/api/v1";
